@@ -9,7 +9,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import OpeningScreen from '../screens/onboarding/opening_screen';
 import Onboarding_1 from '../screens/onboarding/onboarding_1';
 import Onboarding_3 from '../screens/onboarding/onboarding_3';
-import Onboarding_4 from '../screens/onboarding/Onboarding_4';
+import Onboarding_4 from '../screens/onboarding/onboarding_4';
 import Onboarding_5 from '../screens/onboarding/onboarding_5';
 
 
