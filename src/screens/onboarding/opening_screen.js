@@ -1,3 +1,5 @@
+// home screen fist screen that opens when app is clicked on
+
 import React from "react";
 import { ImageBackground, Text, View, Image,TouchableOpacity} from 'react-native';
 import styles from '../../src/styles/onboarding'
@@ -13,7 +15,6 @@ const OpeningScreen = ({navigation}) => {
                     <View style={styles.spaceAroundLogo}>
                         <TouchableOpacity 
                             style={{alignItems:'center'}}
-                            //navigation to login page
                             onPress={() => {}}>
                             <Image style={styles.frontPageLogo}
                                 source={require('../../assets/images/PAD_MVP_IMAGES/Logo.png')} />
@@ -30,4 +31,8 @@ const OpeningScreen = ({navigation}) => {
     );
 }
 
-export default HomePage;
+export default OpeningScreen;
+
+// outstanding changes to be made
+// 21. add navigation to login page
+// 27. add navigation to create an account first page [onboarding_1]
