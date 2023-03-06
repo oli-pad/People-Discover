@@ -25,7 +25,7 @@ const OpeningScreen = ({navigation}) => {
                         <Text style={styles.frontPageText}>Press to</Text>
                         <Text style={[styles.frontPageText,{marginBottom:10}]}>Re-connect</Text>
                     </View>
-                    <RoundedRectangle text={'Create an account'} left={78} right={78} onPress={() => {}}/>
+                    <RoundedRectangle text={'Create an account'} left={78} right={78} onPress={() => {navigation.navigate("Onboarding_1")}}/>
                 </View>
             </ImageBackground>
         </View>
