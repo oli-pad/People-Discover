@@ -1,3 +1,4 @@
+// In Progress
 // onbaording_2 is sotred in the modal below 
 
 import React, {useState} from "react";
@@ -45,6 +46,5 @@ const Onboarding_1 = ({navigation}) => {
         </View>
     );
 }
-
 
 export default Onboarding_1;

@@ -1,9 +1,10 @@
+// In Progress
 // home screen fist screen that opens when app is clicked on
 
 import React from "react";
 import { ImageBackground, Text, View, Image,TouchableOpacity} from 'react-native';
-import styles from '../../src/styles/onboarding'
-import RoundedRectangle from "../../assets/components/roundedRectangle";
+import styles from '../../styles/onboarding'
+import RoundedRectangle from "../../components/shapes/roundedRectangle";
 
 const OpeningScreen = ({navigation}) => {
 
@@ -34,5 +35,5 @@ const OpeningScreen = ({navigation}) => {
 export default OpeningScreen;
 
 // outstanding changes to be made
-// 21. add navigation to login page
-// 27. add navigation to create an account first page [onboarding_1]
+// 19. add navigation to login page
+// 28. add navigation to create an account first page [onboarding_1]

@@ -1,3 +1,5 @@
+// in progress comes up after clicking the logo from opening screen
+
 import React, {useState} from "react";
 import {Text, View} from 'react-native';
 import styles from "../../../styles";
@@ -7,7 +9,6 @@ import RoundedBox from "../../assets/components/roundedRectangle";
 const LoginPage = ({navigation}) => {
     const [email,setemail] = useState(false);
     const [pw,setpw] =useState(false);
-    const auth = getAuth(app)
 
     const onLoginPress = () => {
     }
@@ -31,3 +32,5 @@ const LoginPage = ({navigation}) => {
 
 
 export default LoginPage;
+
+// connect authentication services from firebase

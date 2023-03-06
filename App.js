@@ -1,7 +1,6 @@
-import React, {useState, useEffect} from "react";
-import { ActivityIndicator, View } from 'react-native';
+import React from "react";
 
-import PreAuthNavigator from "../src/navigation/PreAuthNavigator";
+import PreAuthNavigator from "./src/navigation/preAuthNavigator";
 
 export default function App() {
     return(
