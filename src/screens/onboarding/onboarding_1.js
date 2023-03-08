@@ -3,10 +3,10 @@
 
 import React, {useState} from "react";
 import {Text, View,Modal} from 'react-native';
-import styles from "../../../styles";
-import RoundedTextInput from "../../assets/components/input/roundedTextInput";
-import RoundedRectangle from "../../assets/components/shapes/roundedRectangle";
-import ProgressBar from "../../assets/components/shapes/progressBar";
+import styles from "../../styles/onboarding";
+import RoundedTextInput from "../../components/input/roundedTextInput";
+import RoundedRectangle from "../../components/shapes/roundedRectangle";
+import ProgressBar from "../../components/shapes/progressBar";
 
 const Onboarding_1 = ({navigation}) => {
     const [display,setdisplay] = useState(false);
