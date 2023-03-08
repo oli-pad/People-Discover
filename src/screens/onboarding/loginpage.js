@@ -2,9 +2,9 @@
 
 import React, {useState} from "react";
 import {Text, View} from 'react-native';
-import styles from "../../../styles";
-import RoundedTextInput from "../../assets/components/roundedTextInput";
-import RoundedBox from "../../assets/components/roundedRectangle";
+import styles from "../../styles/onboarding";
+import RoundedTextInput from "../../components/input/roundedTextInput";
+import RoundedBox from "../../components/shapes/roundedRectangle";
 
 import { Firebase, Auth, Firestore } from './firebase.js';
 
