@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import { ImageBackground, Text, View, Image,Button,Modal} from 'react-native';
-import styles from '../../../styles';
-import RoundedTextInput from "../../assets/components/inputs/roundedTextInput";
-import RoundedRectangle from "../../assets/components/shapes/roundedRectangle";
-import ProgressBar from "../../assets/components/shapes/progressBar";
+import styles from "../../styles/onboarding";
+import RoundedTextInput from "../../components/input/roundedTextInput";
+import RoundedRectangle from "../../components/shapes/roundedRectangle";
+import ProgressBar from "../../components/shapes/progressBar";
 
 
 const Onboarding_4 = ({navigation}) => {
