@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import { ScrollView, Text, View} from 'react-native';
-import styles from '../../../styles';
-import RoundedTextInput from "../../assets/components/inputs/roundedTextInput";
-import RoundedTouchable from "../../assets/components/inputs/roundedTouchable";
-import AddPhoto from "../../assets/components/inputs/addPhoto";
-import RoundedRectangle from "../../assets/components/roundedRectangle";
-import ProgressBar from "../../assets/components/shapes/progressBar";
+import styles from "../../styles/onboarding";
+import RoundedTextInput from "../../components/input/roundedTextInput";
+import RoundedTouchable from "../../components/input/roundedTouchable";
+import AddPhoto from "../../components/input/addPhoto";
+import RoundedRectangle from "../../components/shapes/roundedRectangle";
+import ProgressBar from "../../components/shapes/progressBar";
 
 const Onboarding_5 = ({navigation}) => {
     const [display,setdisplay] = useState(false);
