@@ -1,6 +1,6 @@
 import React from "react";
+import PreAuthNavigator from "./src/navigation/PreAuthNavigator";
 
-import PreAuthNavigator from "./src/navigation/preAuthNavigator";
 
 export default function App() {
     return(
